@@ -1,0 +1,37 @@
+body{
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: center;
+}
+
+#wrapper{
+    border: solid 5px cadetblue;
+    padding: 30px;
+    text-align: center;
+}
+
+#enemyText{
+    color: brown;
+}
+
+#playerText{
+    color: cornflowerblue;
+}
+
+#gameText{
+    color: cadetblue;
+}
+
+button{
+    background-color: #00000000;
+    color: cadetblue;
+    font-size: 40px;
+    border: solid 5px cadetblue;
+    border-radius: 15px;
+    margin: 10px;
+    transition: .5s;
+}
+
+button:hover{
+    transform: scale(105%);
+}
