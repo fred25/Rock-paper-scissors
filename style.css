@@ -8,6 +8,7 @@ body{
     border: solid 5px cadetblue;
     padding: 30px;
     text-align: center;
+    margin:10vw;
 }
 
 #enemyText{
